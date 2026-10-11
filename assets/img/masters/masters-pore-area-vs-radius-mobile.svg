@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 830" width="560" height="830" role="img" aria-labelledby="t d" font-family="'DejaVu Sans', Inter, 'Helvetica Neue', Arial, sans-serif">
+<title id="t">Pore area between three close-packed ligated gold nanoparticles versus core radius</title>
+<desc id="d">Line chart computed from the pore-area relation in the thesis, for a ligand length of 1.7 nanometres. Below a critical core radius of 4.65 nanometres the ligand shells cover the gap and the pore is closed. Above it the pore opens and grows: about 1.5 square nanometres at 8 nanometres and 7.4 at 12. Two inset drawings show three cores with their ligand shells for a closed case (r = 3.5 nm) and an open case (r = 9 nm).</desc>
+<rect width="560" height="830" rx="16" fill="#0c1119"/>
+<circle cx="44.00" cy="37.00" r="9.00" fill="#f0d34a" stroke="none" stroke-width="0" fill-opacity="0.92"/>
+<text x="62.0" y="44.0" font-size="19" fill="#8c97a8" text-anchor="start" >gold core</text>
+<circle cx="194.00" cy="37.00" r="9.00" fill="#8b6cff" stroke="none" stroke-width="0" fill-opacity="0.45"/>
+<text x="212.0" y="44.0" font-size="19" fill="#8c97a8" text-anchor="start" >ligand shell</text>
+<circle cx="364.00" cy="37.00" r="9.00" fill="#22c7d9" stroke="none" stroke-width="0" fill-opacity="1"/>
+<text x="382.0" y="44.0" font-size="19" fill="#8c97a8" text-anchor="start" >open pore</text>
+<circle cx="140.00" cy="146.39" r="24.44" fill="#8b6cff" stroke="#8b6cff" stroke-width="1.2" fill-opacity="0.30" stroke-opacity="0.8"/>
+<circle cx="119.56" cy="181.80" r="24.44" fill="#8b6cff" stroke="#8b6cff" stroke-width="1.2" fill-opacity="0.30" stroke-opacity="0.8"/>
+<circle cx="160.44" cy="181.80" r="24.44" fill="#8b6cff" stroke="#8b6cff" stroke-width="1.2" fill-opacity="0.30" stroke-opacity="0.8"/>
+<circle cx="140.00" cy="146.39" r="16.45" fill="#f0d34a" stroke="none" stroke-width="0" fill-opacity="0.92"/>
+<circle cx="119.56" cy="181.80" r="16.45" fill="#f0d34a" stroke="none" stroke-width="0" fill-opacity="0.92"/>
+<circle cx="160.44" cy="181.80" r="16.45" fill="#f0d34a" stroke="none" stroke-width="0" fill-opacity="0.92"/>
+<path d="M140.00,146.39 L119.56,181.80 L160.44,181.80 Z" stroke="#0c1119" stroke-width="1.4" fill="none" stroke-dasharray="3 4" stroke-opacity="0.75"/>
+<text x="140.0" y="282.0" font-size="19" fill="#e7ecf3" text-anchor="middle" >r = 3.5 nm</text>
+<text x="140.0" y="306.0" font-size="18" fill="#8c97a8" text-anchor="middle" >shells cover the gap</text>
+<circle cx="404.00" cy="116.54" r="50.29" fill="#8b6cff" stroke="#8b6cff" stroke-width="1.2" fill-opacity="0.30" stroke-opacity="0.8"/>
+<circle cx="357.70" cy="196.73" r="50.29" fill="#8b6cff" stroke="#8b6cff" stroke-width="1.2" fill-opacity="0.30" stroke-opacity="0.8"/>
+<circle cx="450.29" cy="196.73" r="50.29" fill="#8b6cff" stroke="#8b6cff" stroke-width="1.2" fill-opacity="0.30" stroke-opacity="0.8"/>
+<circle cx="404.00" cy="116.54" r="42.30" fill="#f0d34a" stroke="none" stroke-width="0" fill-opacity="0.92"/>
+<circle cx="357.70" cy="196.73" r="42.30" fill="#f0d34a" stroke="none" stroke-width="0" fill-opacity="0.92"/>
+<circle cx="450.29" cy="196.73" r="42.30" fill="#f0d34a" stroke="none" stroke-width="0" fill-opacity="0.92"/>
+<path d="M404.00,116.54 L357.70,196.73 L450.29,196.73 Z" stroke="#0c1119" stroke-width="1.4" fill="none" stroke-dasharray="3 4" stroke-opacity="0.75"/>
+<path d="M397.86,166.46 L398.18,166.89 L398.50,167.32 L398.81,167.75 L399.12,168.19 L399.42,168.63 L399.71,169.08 L400.00,169.53 L400.29,169.98 L400.57,170.43 L400.85,170.89 L401.12,171.35 L401.39,171.82 L401.65,172.28 L401.91,172.75 L402.16,173.22 L402.41,173.70 L402.65,174.17 L402.89,174.65 L403.12,175.13 L403.35,175.62 L403.57,176.10 L403.79,176.59 L404.00,177.09 L404.00,177.09 L404.21,176.59 L404.43,176.10 L404.65,175.62 L404.88,175.13 L405.11,174.65 L405.35,174.17 L405.59,173.70 L405.84,173.22 L406.09,172.75 L406.35,172.28 L406.61,171.82 L406.88,171.35 L407.15,170.89 L407.43,170.43 L407.71,169.98 L408.00,169.53 L408.29,169.08 L408.58,168.63 L408.88,168.19 L409.19,167.75 L409.50,167.32 L409.82,166.89 L410.14,166.46 L410.14,166.46 L409.60,166.52 L409.07,166.58 L408.54,166.63 L408.01,166.67 L407.47,166.71 L406.94,166.75 L406.41,166.78 L405.87,166.80 L405.34,166.82 L404.80,166.83 L404.27,166.83 L403.73,166.83 L403.20,166.83 L402.66,166.82 L402.13,166.80 L401.59,166.78 L401.06,166.75 L400.53,166.71 L399.99,166.67 L399.46,166.63 L398.93,166.58 L398.40,166.52 L397.86,166.46 Z" stroke="none" stroke-width="0" fill="#22c7d9" />
+<text x="404.0" y="282.0" font-size="19" fill="#e7ecf3" text-anchor="middle" >r = 9 nm</text>
+<text x="404.0" y="306.0" font-size="18" fill="#8c97a8" text-anchor="middle" >pore opens</text>
+<line x1="64.0" y1="730.0" x2="532.0" y2="730.0" stroke="#233044" stroke-width="1" />
+<text x="52.0" y="737.0" font-size="19" fill="#8c97a8" text-anchor="end" >0</text>
+<line x1="64.0" y1="645.5" x2="532.0" y2="645.5" stroke="#233044" stroke-width="1" />
+<text x="52.0" y="652.5" font-size="19" fill="#8c97a8" text-anchor="end" >2</text>
+<line x1="64.0" y1="561.0" x2="532.0" y2="561.0" stroke="#233044" stroke-width="1" />
+<text x="52.0" y="568.0" font-size="19" fill="#8c97a8" text-anchor="end" >4</text>
+<line x1="64.0" y1="476.5" x2="532.0" y2="476.5" stroke="#233044" stroke-width="1" />
+<text x="52.0" y="483.5" font-size="19" fill="#8c97a8" text-anchor="end" >6</text>
+<line x1="64.0" y1="392.0" x2="532.0" y2="392.0" stroke="#233044" stroke-width="1" />
+<text x="52.0" y="399.0" font-size="19" fill="#8c97a8" text-anchor="end" >8</text>
+<text x="64.0" y="760.0" font-size="19" fill="#8c97a8" text-anchor="middle" >0</text>
+<text x="142.0" y="760.0" font-size="19" fill="#8c97a8" text-anchor="middle" >2</text>
+<text x="220.0" y="760.0" font-size="19" fill="#8c97a8" text-anchor="middle" >4</text>
+<text x="298.0" y="760.0" font-size="19" fill="#8c97a8" text-anchor="middle" >6</text>
+<text x="376.0" y="760.0" font-size="19" fill="#8c97a8" text-anchor="middle" >8</text>
+<text x="454.0" y="760.0" font-size="19" fill="#8c97a8" text-anchor="middle" >10</text>
+<text x="532.0" y="760.0" font-size="19" fill="#8c97a8" text-anchor="middle" >12</text>
+<line x1="64.0" y1="730.0" x2="532.0" y2="730.0" stroke="#8c97a8" stroke-width="1.2" />
+<text x="34.0" y="370.0" font-size="19" fill="#8c97a8" text-anchor="start" >Pore area (nm²)</text>
+<text x="532.0" y="800.0" font-size="19" fill="#8c97a8" text-anchor="end" >Core radius r (nm), 1.7 nm ligand</text>
+<line x1="64.0" y1="730.0" x2="245.1" y2="730.0" stroke="#8c97a8" stroke-width="4" stroke-linecap="round"/>
+<text x="154.6" y="716.0" font-size="19" fill="#8c97a8" text-anchor="middle" >pore closed</text>
+<path d="M245.13,730.00 L246.09,730.00 L247.05,729.99 L248.01,729.97 L248.97,729.95 L249.93,729.92 L250.89,729.89 L251.85,729.84 L252.81,729.80 L253.77,729.74 L254.73,729.68 L255.69,729.61 L256.65,729.54 L257.61,729.46 L258.57,729.37 L259.53,729.28 L260.49,729.18 L261.45,729.07 L262.40,728.96 L263.36,728.84 L264.32,728.71 L265.28,728.58 L266.24,728.44 L267.20,728.30 L268.16,728.14 L269.12,727.98 L270.08,727.82 L271.04,727.65 L272.00,727.47 L272.96,727.28 L273.92,727.09 L274.88,726.89 L275.84,726.69 L276.80,726.47 L277.76,726.26 L278.71,726.03 L279.67,725.80 L280.63,725.56 L281.59,725.31 L282.55,725.06 L283.51,724.80 L284.47,724.54 L285.43,724.26 L286.39,723.98 L287.35,723.70 L288.31,723.41 L289.27,723.11 L290.23,722.80 L291.19,722.49 L292.15,722.17 L293.11,721.84 L294.07,721.51 L295.02,721.16 L295.98,720.82 L296.94,720.46 L297.90,720.10 L298.86,719.73 L299.82,719.36 L300.78,718.98 L301.74,718.59 L302.70,718.19 L303.66,717.79 L304.62,717.38 L305.58,716.97 L306.54,716.54 L307.50,716.12 L308.46,715.68 L309.42,715.23 L310.38,714.78 L311.33,714.33 L312.29,713.86 L313.25,713.39 L314.21,712.91 L315.17,712.43 L316.13,711.94 L317.09,711.44 L318.05,710.93 L319.01,710.42 L319.97,709.90 L320.93,709.37 L321.89,708.84 L322.85,708.29 L323.81,707.75 L324.77,707.19 L325.73,706.63 L326.69,706.06 L327.64,705.48 L328.60,704.90 L329.56,704.31 L330.52,703.71 L331.48,703.11 L332.44,702.50 L333.40,701.88 L334.36,701.25 L335.32,700.62 L336.28,699.98 L337.24,699.33 L338.20,698.68 L339.16,698.02 L340.12,697.35 L341.08,696.67 L342.04,695.99 L343.00,695.30 L343.95,694.60 L344.91,693.90 L345.87,693.19 L346.83,692.47 L347.79,691.75 L348.75,691.01 L349.71,690.28 L350.67,689.53 L351.63,688.77 L352.59,688.01 L353.55,687.25 L354.51,686.47 L355.47,685.69 L356.43,684.90 L357.39,684.10 L358.35,683.30 L359.31,682.49 L360.26,681.67 L361.22,680.84 L362.18,680.01 L363.14,679.17 L364.10,678.32 L365.06,677.47 L366.02,676.61 L366.98,675.74 L367.94,674.86 L368.90,673.98 L369.86,673.09 L370.82,672.19 L371.78,671.28 L372.74,670.37 L373.70,669.45 L374.66,668.52 L375.62,667.59 L376.57,666.65 L377.53,665.70 L378.49,664.74 L379.45,663.78 L380.41,662.81 L381.37,661.83 L382.33,660.85 L383.29,659.85 L384.25,658.85 L385.21,657.85 L386.17,656.83 L387.13,655.81 L388.09,654.78 L389.05,653.75 L390.01,652.70 L390.97,651.65 L391.93,650.59 L392.88,649.53 L393.84,648.45 L394.80,647.37 L395.76,646.29 L396.72,645.19 L397.68,644.09 L398.64,642.98 L399.60,641.86 L400.56,640.74 L401.52,639.61 L402.48,638.47 L403.44,637.32 L404.40,636.17 L405.36,635.01 L406.32,633.84 L407.28,632.66 L408.24,631.48 L409.19,630.29 L410.15,629.09 L411.11,627.88 L412.07,626.67 L413.03,625.45 L413.99,624.22 L414.95,622.99 L415.91,621.75 L416.87,620.50 L417.83,619.24 L418.79,617.97 L419.75,616.70 L420.71,615.42 L421.67,614.14 L422.63,612.84 L423.59,611.54 L424.55,610.23 L425.50,608.91 L426.46,607.59 L427.42,606.26 L428.38,604.92 L429.34,603.57 L430.30,602.22 L431.26,600.86 L432.22,599.49 L433.18,598.11 L434.14,596.73 L435.10,595.34 L436.06,593.94 L437.02,592.53 L437.98,591.12 L438.94,589.70 L439.90,588.27 L440.86,586.83 L441.82,585.39 L442.77,583.94 L443.73,582.48 L444.69,581.01 L445.65,579.54 L446.61,578.06 L447.57,576.57 L448.53,575.07 L449.49,573.57 L450.45,572.06 L451.41,570.54 L452.37,569.02 L453.33,567.48 L454.29,565.94 L455.25,564.39 L456.21,562.84 L457.17,561.27 L458.13,559.70 L459.08,558.12 L460.04,556.54 L461.00,554.94 L461.96,553.34 L462.92,551.73 L463.88,550.12 L464.84,548.49 L465.80,546.86 L466.76,545.22 L467.72,543.58 L468.68,541.92 L469.64,540.26 L470.60,538.59 L471.56,536.92 L472.52,535.23 L473.48,533.54 L474.44,531.84 L475.39,530.13 L476.35,528.42 L477.31,526.70 L478.27,524.97 L479.23,523.23 L480.19,521.49 L481.15,519.73 L482.11,517.97 L483.07,516.21 L484.03,514.43 L484.99,512.65 L485.95,510.86 L486.91,509.06 L487.87,507.26 L488.83,505.44 L489.79,503.62 L490.75,501.79 L491.70,499.96 L492.66,498.12 L493.62,496.26 L494.58,494.41 L495.54,492.54 L496.50,490.67 L497.46,488.78 L498.42,486.90 L499.38,485.00 L500.34,483.10 L501.30,481.18 L502.26,479.26 L503.22,477.34 L504.18,475.40 L505.14,473.46 L506.10,471.51 L507.06,469.55 L508.01,467.59 L508.97,465.61 L509.93,463.63 L510.89,461.65 L511.85,459.65 L512.81,457.65 L513.77,455.64 L514.73,453.62 L515.69,451.59 L516.65,449.56 L517.61,447.52 L518.57,445.47 L519.53,443.41 L520.49,441.35 L521.45,439.27 L522.41,437.19 L523.37,435.11 L524.32,433.01 L525.28,430.91 L526.24,428.80 L527.20,426.68 L528.16,424.55 L529.12,422.42 L530.08,420.28 L531.04,418.13 L532.00,415.98" stroke="#8b6cff" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="532.0" y="692.0" font-size="19" fill="#e7ecf3" text-anchor="end" >pore open</text>
+<line x1="245.1" y1="730.0" x2="245.1" y2="552.5" stroke="#8c97a8" stroke-width="1" stroke-dasharray="3 5"/>
+<circle cx="245.13" cy="730.00" r="7.00" fill="#0c1119" stroke="#8b6cff" stroke-width="3" />
+<text x="257.1" y="558.5" font-size="19" fill="#8c97a8" text-anchor="start" >critical radius</text>
+<text x="257.1" y="584.5" font-size="21" fill="#e7ecf3" text-anchor="start" font-weight="600" >r = 4.65 nm</text>
+<circle cx="376.00" cy="667.21" r="6.50" fill="#8b6cff" stroke="#0c1119" stroke-width="2" />
+<text x="362.0" y="627.2" font-size="19" fill="#e7ecf3" text-anchor="end" >8 nm: 1.5 nm²</text>
+<text x="362.0" y="651.2" font-size="19" fill="#8c97a8" text-anchor="end" >≈ 1.4 nm wide</text>
+</svg>

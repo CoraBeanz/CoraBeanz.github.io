@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Optical systems, robotics &amp; spectroscopy | Ryan Vincent</title>
+<meta name="description" content="Retinal OCT at KineoLabs, and my own instruments: hyperspectral robotic perception, a snapshot hyperspectral camera, a self-aligning fiber bench and printed optomechanics.">
+<link rel="canonical" href="https://corabeanz.github.io/optics.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ryan Vincent">
+<meta property="og:url" content="https://corabeanz.github.io/optics.html">
+<meta property="og:title" content="Optical systems, robotics &amp; spectroscopy | Ryan Vincent">
+<meta property="og:description" content="Retinal OCT at KineoLabs, and my own instruments: hyperspectral robotic perception, a snapshot hyperspectral camera, a self-aligning fiber bench and printed optomechanics.">
+<meta property="og:image" content="https://corabeanz.github.io/assets/img/og/optics.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400..600&display=swap">
+<link rel="stylesheet" href="assets/css/site.css">
+<script>try{var t=localStorage.getItem("rv-theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<script type="importmap">{"imports":{"three":"./assets/vendor/three/build/three.module.min.js","three/addons/":"./assets/vendor/three/examples/jsm/"}}</script>
+</head>
+<body>
+<!-- @header -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="index.html">Ryan Vincent</a>
+    <nav class="nav" aria-label="Main">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="index.html">Home</a></li>
+        <li><a class="nav__link" href="optics.html" aria-current="page">Work</a></li>
+        <li><a class="nav__link" href="cv.html">CV</a></li>
+        <li><a class="nav__link" href="cora.html">Cora</a></li>
+      </ul>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch theme">
+        <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+<!-- /@header -->
+
+<main id="main">
+  <div class="band">
+    <img class="band__img" src="assets/img/home/home-forest.webp" width="1536" height="1229" alt="">
+    <div class="wrap">
+      <h1 class="visually-hidden">Optical systems, robotics &amp; spectroscopy</h1>
+      <nav class="tabs" aria-label="Work">
+      <a class="tab" href="optics.html" aria-current="page">Optical systems, robotics &amp; spectroscopy</a>
+      <a class="tab" href="materials.html">Materials science</a>
+      </nav>
+    </div>
+  </div>
+
+  <section class="topic" id="oct" aria-labelledby="oct-title">
+    <div class="wrap">
+      <header class="topic__head">
+        <h2 class="topic__title" id="oct-title">Retinal OCT</h2>
+        <p class="topic__meta">KineoLabs, 2026 to present</p>
+        <p class="topic__lede">I lead the software/hardware design of a line scan laser retinal OCT imager. Shown below are device prototypes, and simulated renderings from my digital twin (because I don’t want my real biometric data circulating the internet). I am developing this digital twin to run multiphysics simulations and develop brand new imaging modalities through reinforcement-learning and Bayesian optimization.</p>
+      </header>
+      <div class="montage">
+      <div class="montage__row">
+        <figure class="tile" style="--ar:1.7778" data-note="The KineoLabs app reviewing OCT angiography on the digital twin&#x27;s synthetic eye, with flow drawn in red to yellow. Registration uses bscanReg and the processing builds on OCTproZ, open-source projects by Miroslav Zabic.">
+          <div class="tile__media"><video data-loop data-zoom muted playsinline preload="metadata" poster="assets/img/kineolabs/kineolabs-line-scan-flow-poster.webp" width="1600" height="900" aria-label="Screen recording of OCT Line Scans of a simulated retina with blood flow drawn in red to yellow, stepping through the scans and then zooming out to the review layout."><source src="assets/video/kineolabs-line-scan-flow.mp4" type="video/mp4"></video></div>
+          <figcaption>OCT angiography (shown in simulation with the digital twin to protect biometric data)</figcaption>
+        </figure>
+        <figure class="tile" style="--ar:1.7778" data-note="A digital-twin Volume Scan with the app&#x27;s flow in amber. Depth is stretched 3×.">
+          <div class="tile__media"><video data-loop data-zoom data-loop-btn="top-right" muted playsinline preload="metadata" poster="assets/video/kineolabs-twin-volume-rotate.webp" width="1056" height="594" aria-label="Video of a rotating 3D retina volume with amber vessels and a cyan plane sweeping front to back."><source src="assets/video/kineolabs-twin-volume-rotate.mp4" type="video/mp4"></video></div>
+          <figcaption>Volume with measured flow, rendered (shown in simulation with the digital twin to protect biometric data)</figcaption>
+        </figure>
+      </div>
+      <div class="montage__row">
+        <figure class="tile" style="--ar:1.4621">
+          <div class="tile__media"><img src="assets/img/kineolabs/kineolabs-oct-imager-cad.webp" width="1120" height="766" loading="lazy" data-zoom alt="CAD model of the OCT imager with a see-through housing, mounted beside a chin and head rest."></div>
+          <figcaption>The OCT system in CAD (actual hardware blurred)</figcaption>
+        </figure>
+        <figure class="tile" style="--ar:1.5140">
+          <div class="tile__media"><img src="assets/img/kineolabs/kineolabs-oct-imager-photo.webp" width="2000" height="1321" loading="lazy" data-zoom alt="Photo of the OCT imager on its post: lenses and mounts on a black optics plate, with circuit boards and wiring underneath."></div>
+          <figcaption>Early prototype of OCT and fundus imaging system</figcaption>
+        </figure>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="topic" id="hyperspectral" aria-labelledby="hyperspectral-title">
+    <div class="wrap">
+      <header class="topic__head">
+        <h2 class="topic__title" id="hyperspectral-title">3D hyperspectral robotic perception</h2>
+        <p class="topic__meta">Personal project, 2026. <a href="https://github.com/CoraBeanz/linescan-hyperspectral-splatting" rel="noopener">Code on GitHub</a></p>
+        <p class="topic__lede">A pushbroom spectrograph on a robot arm, reconstructed as Gaussian splats that store a full spectrum in every Gaussian.</p>
+      </header>
+      <div class="montage">
+      <div class="montage__row">
+        <figure class="tile" style="--ar:1.7778" data-note="Rendered from the scene, spectra and synthetic spectrograph in my simulator, not measured.">
+          <div class="tile__media"><video data-loop data-zoom muted playsinline preload="metadata" poster="assets/video/hyperspectral-pushbroom-scan.webp" width="1920" height="1080" aria-label="Animation: a bright line sweeps across a small board with paint patches, a green ball and an orange box, while a camera frame shows that line spread into a spectrum and a stack of lines grows into a cube."><source src="assets/video/hyperspectral-pushbroom-scan.mp4" type="video/mp4"></video></div>
+          <figcaption>Pushbroom scan to datacube, simulated</figcaption>
+        </figure>
+        <figure class="tile" style="--ar:1.2623" data-note="Trained from 16 synthetic sweeps. The word NIR appears past 740 nm, where the dye turns clear.">
+          <div class="tile__media"><video data-loop data-zoom muted playsinline preload="metadata" poster="assets/video/hyperspectral-splat-wavelength-sweep.webp" width="1280" height="1014" aria-label="Animation of a grey-scale 3D board scene whose brightness changes with wavelength; a readout counts from 500 to 950 nm while a word appears on a dark panel."><source src="assets/video/hyperspectral-splat-wavelength-sweep.mp4" type="video/mp4"></video></div>
+          <figcaption>Splat swept from 500 to 950 nm, simulated</figcaption>
+        </figure>
+      </div>
+      <div class="montage__row">
+        <figure class="tile" style="--ar:1.6327" data-note="The arm sets a viewpoint, the mirror sweeps the slit across the object, and a Jetson Nano and an ESP32 run it.">
+          <div class="tile__media"><img src="assets/img/hyperspectral/rig-diagram.svg" width="1280" height="784" loading="lazy" data-zoom data-zoom-mobile="assets/img/hyperspectral/hyperspectral-rig-diagram-mobile.svg" alt="Diagram of the SO-101 arm holding the scanner head over a plant on an AprilTag board, with halogen lamps, a Jetson Nano and the ESP32 controller on the table, and an inset of the parts inside the head."></div>
+          <figcaption>The rig</figcaption>
+        </figure>
+        <figure class="tile" style="--ar:1.3333" data-note="My FreeCAD model, rendered in Blender. The arm is TheRobotStudio&#x27;s SO-⁠101 (Apache-2.0); the head and housing are mine.">
+          <div class="tile__media"><img src="assets/img/hyperspectral/hyperspectral-cad-rig-dark.webp" width="1168" height="876" loading="lazy" data-zoom alt="Render of a yellow SO-101 robot arm, folded, holding a grey box-shaped scanner head; a faint red fan runs from the head down to a red line on the table."></div>
+          <figcaption>Scanner head on the SO-⁠101 arm</figcaption>
+        </figure>
+        <figure class="tile" style="--ar:1.5000" data-note="Scan mirror, objective, slit, collimator, grating and IMX219 camera on one optical axis.">
+          <div class="tile__media"><img src="assets/img/hyperspectral/hyperspectral-cad-head-open-dark.webp" width="1500" height="1000" loading="lazy" data-zoom alt="CAD render of the scanner head with its lid removed and labels on the IMX219 board, camera lens, grating, collimator, slit and field lens, objective, scan mirror, mirror clamp and wrist puck."></div>
+          <figcaption>Inside the scanner head</figcaption>
+        </figure>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="topic" id="snapshot-hsi" aria-labelledby="snapshot-hsi-title">
+    <div class="wrap">
+      <header class="topic__head">
+        <h2 class="topic__title" id="snapshot-hsi-title">DIY snapshot hyperspectral imaging</h2>
+        <p class="topic__meta">Personal project, 2026</p>
+        <p class="topic__lede">A snapshot hyperspectral camera built from an off-the-shelf lens, 3D-printed mounts and a Raspberry Pi.</p>
+      </header>
+      <div class="montage">
+      <div class="montage__row">
+        <figure class="tile" style="--ar:1.3333">
+          <div class="tile__media"><img src="assets/img/snapshot-hsi/snapshot-hsi-assembled.webp" width="2000" height="1500" loading="lazy" data-zoom alt="Photo of a black camera on an aluminium rail: a lens, a printed box housing and a camera back, with a Raspberry Pi behind it and a ruler in front."></div>
+          <figcaption>First prototype</figcaption>
+        </figure>
+        <figure class="tile" style="--ar:1.3333">
+          <div class="tile__media"><img src="assets/img/snapshot-hsi/snapshot-hsi-open.webp" width="2000" height="1500" loading="lazy" data-zoom alt="Photo of the same rail with the housing removed, showing the lens, a large lens in a printed mount, two printed holders and the Raspberry Pi camera on its ribbon cable."></div>
+          <figcaption>Initial testing</figcaption>
+        </figure>
+        <figure class="tile" style="--ar:1.9881">
+          <div class="tile__media"><img src="assets/img/snapshot-hsi/snapshot-hsi-cad.webp" width="2000" height="1006" loading="lazy" data-zoom alt="CAD render of the camera on its rail in color: black lens, blue housing, orange camera plate and a green Raspberry Pi in a printed tray."></div>
+          <figcaption>CAD</figcaption>
+        </figure>
+        <figure class="tile" style="--ar:0.7500">
+          <div class="tile__media"><img src="assets/img/snapshot-hsi/snapshot-hsi-dispersion.webp" width="1500" height="2000" loading="lazy" data-zoom alt="Photo of a lens on the rail projecting a white spot ringed by small rainbow-colored spots onto a white card."></div>
+          <figcaption>Alignment</figcaption>
+        </figure>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="topic" id="fiber-bench" aria-labelledby="fiber-bench-title">
+    <div class="wrap">
+      <header class="topic__head">
+        <h2 class="topic__title" id="fiber-bench-title">Self-aligning fiber bench</h2>
+        <p class="topic__meta">Personal project, 2026. <a href="https://github.com/CoraBeanz/ROS-Optics-Bench" rel="noopener">Code on GitHub</a></p>
+        <p class="topic__lede">A laser-to-fiber bench run by ROS 2. When a mirror is knocked, it searches for the light and walks the beam back to peak coupling.</p>
+      </header>
+      <div class="montage">
+      <div class="montage__row">
+        <figure class="tile" style="--ar:2.1333" data-note="Replays one run of my bench twin: back to peak coupling in 17 s.">
+          <div class="tile__media"><img src="assets/img/opensource/ros-banner.svg" width="1280" height="600" loading="lazy" data-zoom data-zoom-mobile="assets/img/opensource/opensource-ros-banner-mobile.svg" alt="Top view of the bench: a 635 nm beam folds off motorized mirrors M1 and M2 into a single-mode fiber. M1 is knocked, M2 searches in a square spiral until it finds the light, and both mirrors walk the beam back to its peak while a chart plots the coupling."></div>
+          <figcaption>Recovering from a knocked mirror, simulated</figcaption>
+        </figure>
+        <figure class="tile" style="--ar:1.7762">
+          <div class="tile__media"><div class="viewer" data-module="assets/js/opensource-ros-bench.js"><img class="viewer__poster" src="assets/img/opensource/ros-bench-3d-poster.webp" width="2000" height="1126" loading="lazy" alt="3D view of the bench on its printed hole-grid base, with the laser, motorized mirrors, irises, asphere, fiber mounts, photodiodes and control board."></div></div>
+          <figcaption>Onshape model of the bench, drag to turn</figcaption>
+        </figure>
+      </div>
+      <div class="montage__row">
+        <figure class="tile" style="--ar:1.3357">
+          <div class="tile__media"><img src="assets/img/opensource/ros-pcb-layouts.svg" width="160" height="120" loading="lazy" data-zoom alt="Copper layout of the control board and the photodiode amplifier board, drawn to the same scale from the KiCad files, with tracks colored by what they carry."></div>
+          <figcaption>Copper of both boards, to scale</figcaption>
+        </figure>
+        <figure class="tile" style="--ar:1.4417" data-note="Sockets for the ESP32 Feather V2, four TMC2209 drivers and the ADS1115.">
+          <div class="tile__media"><img src="assets/img/opensource/ros-pcb-control-board-3d.webp" width="1335" height="926" loading="lazy" data-zoom alt="KiCad 3D render of the green control board with sockets for the ESP32 Feather V2, the ADS1115 and four TMC2209 drivers."></div>
+          <figcaption>Control board</figcaption>
+        </figure>
+        <figure class="tile" style="--ar:1.3333">
+          <div class="tile__media"><img src="assets/img/opensource/ros-bench-beta-photo.webp" width="2000" height="1500" loading="lazy" data-zoom alt="Photo of the beta bench: a black printed hole-grid base with mirror mounts, a cube beamsplitter and fiber mounts, wired to stepper drivers on breadboards, with a bench power supply behind."></div>
+          <figcaption>Beta build of the bench</figcaption>
+        </figure>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="topic" id="optomechanics" aria-labelledby="optomechanics-title">
+    <div class="wrap">
+      <header class="topic__head">
+        <h2 class="topic__title" id="optomechanics-title">Printed optomechanics</h2>
+        <p class="topic__meta">OpenFSO, personal project, 2026. <a href="https://github.com/CoraBeanz/OpenFSO" rel="noopener">Code on GitHub</a></p>
+        <p class="topic__lede">3D-printable kinematic mounts, posts and breadboards for building optics setups at home.</p>
+      </header>
+      <div class="montage">
+      <div class="montage__row">
+        <figure class="tile" style="--ar:1.5762">
+          <div class="tile__media"><img src="assets/img/opensource/openfso-michelson-cad.webp" width="1800" height="1142" loading="lazy" data-zoom alt="CAD render of a printed breadboard of blue tiles carrying an Arduino in its mount, a diode laser mount, a beam splitter cube on a post and two mirror mounts at right angles."></div>
+          <figcaption>Michelson interferometer, CAD</figcaption>
+        </figure>
+        <figure class="tile" style="--ar:1.5845">
+          <div class="tile__media"><img src="assets/img/opensource/openfso-michelson-printed.webp" width="1800" height="1136" loading="lazy" data-zoom alt="Photo of the printed interferometer on a black printed breadboard: an Arduino wired to the laser mount, a beam splitter cube glowing red on its post, and two mirror mounts with red adjuster knobs."></div>
+          <figcaption>The printed build</figcaption>
+        </figure>
+        <figure class="tile" style="--ar:1.0000">
+          <div class="tile__media"><img src="assets/img/opensource/openfso-parts-sheet.webp" width="1600" height="1600" loading="lazy" data-zoom alt="Grid of CAD renders of breadboard tiles, magnetic kinematic mounts, posts, clamping forks and other printable parts."></div>
+          <figcaption>Printable parts</figcaption>
+        </figure>
+      </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- @footer -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="site-footer__inner">
+      <p>© <span data-year>2026</span> Ryan Vincent, Boston</p>
+      <ul class="site-footer__links">
+        <li><a href="mailto:VincentRyanBaker@gmail.com">Email</a></li>
+        <li><a href="https://github.com/CoraBeanz" rel="noopener">GitHub</a></li>
+        <li><a href="cv.html">CV</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/site.js"></script>
+<!-- /@footer -->
+</body>
+</html>
