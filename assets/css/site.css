@@ -280,9 +280,7 @@ p { text-wrap: pretty; }
 .cv-entry__title { font-size: 1.02rem; font-weight: 600; line-height: 1.35; }
 .cv-entry__org { font-weight: 400; color: var(--fg-2); }
 .cv-entry__summary { color: var(--fg-2); }
-.cv-entry ul { padding-left: 1.1em; display: grid; gap: 6px; color: var(--fg-2); }
-.cv-entry li::marker { color: var(--fg-3); }
-.cv-entry li strong { color: var(--fg); font-weight: 600; }
+.cv-entry__summary strong { color: var(--fg); font-weight: 600; }
 .cv-entry__note { color: var(--fg-3); font-size: 0.92rem; }
 .cv-entry__links { display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: 0.92rem; color: var(--fg-3); }
 
